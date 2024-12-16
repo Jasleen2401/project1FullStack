@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thisBook.com</title>
+    <!-- Stylesheets -->
+     <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScripts -->
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/9d92e621cd.js" crossorigin="anonymous"></script>
+    <!-- Main JS -->
+   
+</head>
+<body>
+
+    <div id="container">
+
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar">
+                        <div class="logo col-1">
+                            <a href="#">
+                                <img src="logo.png" `alt="logo">
+                            </a>
+                        </div>
+                        <div class="user-links col-2">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Set A Goal</a></li>
+                                <li><a href="#">Rate Books</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Categories <span class="dropdown-icon">▼</span></a>
+                                    <div class="dropdown-menu">
+                                        <a href="#">Fantasy</a>
+                                        <a href="#">Mystery</a>
+                                        <a href="#">Romance</a>
+                                        <a href="#">Science Fiction</a>
+                                        <a href="#">Horror</a>
+                                    </div>
+                                </li>
+                                <li><a href="#">Get in Touch</a></li>
+                                <li class="search-icon">
+                                    <a href="#" id="searchToggle"><i class="fa fa-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search-popup" id="searchPopup">
+                        <div class="search-container">
+                            <input type="text" placeholder="Enter Keyword">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </header>
+                
+
+        <!-- Banner -->
+        
+        <div id="banner">
+            <div class="carousel-container">
+              <div class="carousel" id="carousel">
+                <div class="slide">
+                  <img src="banner.png" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="https://auralcrave.com/wp-content/uploads/2022/10/It-Ends-with-Us.jpg" alt="Slide 1">
+                  </div>
+                <div class="slide">
+                  <img src="https://th.bing.com/th/id/R.a87d604fe5ba6157b1db1cf7ce9db569?rik=NjmbqNYfsggcuw&riu=http%3a%2f%2fclassicalpoets.org%2fwp-content%2fuploads%2f2016%2f12%2ften-greatest-novels.jpg&ehk=btsPsalQTQbb8Fv3HA8WKMJCixfxXuKCF4c6TgXuLeo%3d&risl=&pid=ImgRaw&r=0" alt="Slide 3">
+                </div>
+              </div>
+              <div class="controls">
+                <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Previous" id="prev" class="control-image">
+                <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="Next" id="next" class="control-image">
+              </div>
+            </div>
+          </div>
+           <!-- Main Navigation -->
+        
+           <nav id="main-nav">
+            <div class="box-1">
+                <a href="#">
+                    <img src="https://i.pinimg.com/736x/b5/2e/35/b52e352fb3aa9b6c4330d3d6ad533210.jpg" alt="Navigation Image">
+                </a>
+            </div>
+            <div class="box-2">
+                <ul>
+                    <li><a href="#"><span>FACEBOOK</span></a></li>
+                    <li><a href="#"><span>TWITTER</span></a></li>
+                    <li><a href="#"><span>DRIBBLE</span></a></li>
+                    <li><a href="#"><span>INSTAGRAM</span></a></li>
+                </ul>
+            </div>
+            <div class="explore-now">
+                <a href="#">EXPLORE NOW</a>
+            </div>
+        </nav>
+    
+
+        <!-- Content -->
+
+        <div id="content">
+            <h1>Customer's Choice</h1>
+            <div class="comment-card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711478521i/207567782._SX300_.jpg" alt="img">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718039670i/214152402._SX300_.jpg" alt="img">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1724867496i/218185743._SX300_.jpg" alt="img">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1706793268i/203579233._SX300_.jpg" alt="img">
+            </div>
+        </div>
+        
+    
+        <div class="content">
+            <div class="count-down">
+                <div class="stats">
+                    <div class="stat-item">
+                        <h1 class="count-number" data-target="100">0</h1>
+                        <p>Categories</p>
+                    </div>
+                    <div class="stat-item">
+                        <h1 class="count-number" data-target="1500">0</h1>
+                        <p>Number of Books</p>
+                    </div>
+                    <div class="stat-item">
+                        <h1 class="count-number" data-target="1545">0</h1>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="stat-item">
+                        <h1 class="count-number" data-target="1645">0</h1>
+                        <p>Happy Clients</p>
+                    </div>
+
+            </div>
+        </div>
+        <div id="content">
+            <div class="best">
+                <div class="image" onmouseover="showText(this)" onmouseout="hideText(this)">
+                    <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501110368/it-ends-with-us-9781501110368_hr.jpg" alt="It Ends With Us">
+                    <div class="text">
+                        <p>This book is definitely an emotional rollercoaster. But the one thing which pakes perfect sense is the ending by how  they put an end to the abuse with them. A given one time read.</p>
+                    </div>
+                </div>
+                <div class="image" onmouseover="showText(this)" onmouseout="hideText(this)">
+                    <img src="https://th.bing.com/th/id/OIP.voQNr3tVXjJdVhzGGvUrgQHaLc?rs=1&pid=ImgDetMain" alt="You Have Reached Sam">
+                    <div class="text">
+                        <p>This book is a go to read for all the emotional readers who crave something hard hitting. As the author emotes in the book "Letting go isn't about forgetting. It's about balancing moving forward with life and looking back from time to time, remembering the people in it</p>
+                    </div>
+                </div>
+                <div class="image" onmouseover="showText(this)" onmouseout="hideText(this)">
+                    <img src="https://th.bing.com/th/id/OIP.B4n9HfUt6JaN8bNxvXxUOAHaMA?rs=1&pid=ImgDetMain" alt="Seven Husbands of Evelyn Hugo">
+                    <div class="text">
+                        <p>this book is written in such a compelling and realistic way that u are amazed by all the secrets and ups and downs revealed but most importantly the climax blows off ur mind. The author has definitely done amazing job at bringing forward the grey area of the character and somehow justifying it</p>
+                    </div>
+                </div>
+                <div class="image" onmouseover="showText(this)" onmouseout="hideText(this)">
+                    <img src="https://th.bing.com/th/id/OIP.1ZsDVu_jAM7fOyaiT9YmSgHaLh?rs=1&pid=ImgDetMain" alt="Good Girl's Guide to Murder">
+                    <div class="text">
+                        <p>this book is a must read for all the mystery and crime thriller enthusiasts out there. This book keeps u guessing the very secret untill the end till the huge showdown and when it is revealed it just shakes u off. So yeah this one was my best read of this year so far.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        </div>
+        
+
+        <!-- Footer -->
+       
+         <div class="footer">
+            <div class="fdesign">
+            <div class="foot-1">
+                <img src="footerlogo.png" alt="logo">
+                <p>"Books speaking beyond their covers"</p>
+                <button>Contact Us</button>
+            </div>
+            <div class="foot-2">
+                <p>QuickLinks</p>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="foot-3">
+                <h3>Keep Connected</h3>
+                <p>Get Updates By Subscribe Our Weekly Newsletter</p>
+                <form>
+                    <input type="email" placeholder="Your Email Address">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                  </form>
+                  <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+
+            </div>
+
+        </div>
+         </div>
+         <div class="footerline">
+            <i class="fa-regular fa-copyright"></i>
+            <p>2024 | All rights reserved! | Jasleen E23cseu1129</p>
+         </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
